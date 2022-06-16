@@ -1,0 +1,10 @@
+Screen1 As screen:
+    Fill: =RGBA(212, 175, 55, 1)
+
+    Image5 As image:
+        Height: =189
+        Image: =BlackHeart
+        Width: =201
+        X: =1165
+        ZIndex: =1
+

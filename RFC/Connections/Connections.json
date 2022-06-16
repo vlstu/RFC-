@@ -1,0 +1,78 @@
+{
+  "1230bbb4-bc53-4673-b385-c4f7cda16702": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Пользователи Office\u00A0365",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1573/1.0.1573.2770/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "ПользователиOffice365"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1230bbb4-bc53-4673-b385-c4f7cda16702"
+  },
+  "813971a8-bb52-4528-abc1-173fb38b1b8b": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel Online (для бизнеса)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1579/1.0.1579.2824/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "groups%252F6d9eb045-5996-4d1e-bca8-5db3821ed1c3,b%2521dUP7JEIAOEG9vqM-57qOQGI72b4odjFChedkTDLvGsuQV71hVV00QIeM5dxXa_KY,017FWRYHCV76T3SXZKRZH2522BQWFAMVKH": {
+        "dataSources": {
+          "News": {
+            "tableName": "{345CF2AE-4410-45D1-A26F-F797CFB55D61}"
+          },
+          "RFC": {
+            "tableName": "{60374EC8-CDB3-43AE-8758-F7E3A2CDCEC1}"
+          },
+          "Topic": {
+            "tableName": "{7955ACB1-527A-41EA-91C9-F956ABD176E8}"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Topic",
+      "RFC",
+      "News"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "813971a8-bb52-4528-abc1-173fb38b1b8b"
+  },
+  "c594cc4e-12ef-445a-8d07-550a14dcd268": {
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office\u00A0365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1580/1.0.1580.2838/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "c594cc4e-12ef-445a-8d07-550a14dcd268"
+  }
+}

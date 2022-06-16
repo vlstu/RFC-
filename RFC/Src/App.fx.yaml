@@ -1,0 +1,6 @@
+App As appinfo:
+    BackEnabled: =false
+    OnError: =Notify("Всем привет! Я жив и нормально функционирую",NotificationType.Success,10000)
+    OnStart: =Set(Visual,0) & Set(Dataq,0) & Set(Coin, 0 ) & Notify("Всем привет! Я жив и нормально функционирую",NotificationType.Success,10000)
+    StartScreen: =Screen5
+
